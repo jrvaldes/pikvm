@@ -37,7 +37,7 @@ Ensure that you have the cable(Needs to support both power/data) plugged into th
 Yes! And it's easy to do! Using a SSH session or the web terminal:
 - Make sure you're `root`, if you're not root use the `su` command to become root
 - Enter read write mode of the PiKVM by executing the `rw` command
-- Execute: `hostnamectl set-hostname yournewhostname.domain`
+- Execute: `hostnamectl hostname yournewhostname.domain`
 - Optional: Edit `/etc/kvmd/meta.yaml` to alter the displayed hostname in the web UI
 - Reboot the pikvm
 
